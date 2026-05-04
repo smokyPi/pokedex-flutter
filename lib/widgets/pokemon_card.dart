@@ -33,7 +33,7 @@ class PokemonCard extends StatelessWidget {
         child: Stack(
           children: [
 
-            // ICON BACKGROUND (biar gak kosong)
+            
             Positioned(
               right: -20,
               bottom: -20,
@@ -50,7 +50,7 @@ class PokemonCard extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
 
-                  // TYPE
+                 
                   Container(
                     padding: const EdgeInsets.symmetric(
                         horizontal: 10, vertical: 4),
@@ -69,7 +69,7 @@ class PokemonCard extends StatelessWidget {
 
                   const Spacer(),
 
-                  // IMAGE (ASSET FIX)
+             
                   Center(
                     child: Hero(
                       tag: pokemon.name,
@@ -83,7 +83,7 @@ class PokemonCard extends StatelessWidget {
 
                   const Spacer(),
 
-                  // NAME
+                 
                   Text(
                     pokemon.name,
                     style: const TextStyle(
