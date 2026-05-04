@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
 
-            /// 🔥 HEADER
+            
             Padding(
               padding: const EdgeInsets.fromLTRB(16, 16, 16, 8),
               child: Column(
@@ -52,7 +52,7 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
 
-            /// 🔍 SEARCH BAR
+          
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16),
               child: Container(
@@ -85,7 +85,7 @@ class _HomePageState extends State<HomePage> {
 
             SizedBox(height: 12),
 
-            /// 🔥 LIST
+          
             Expanded(
               child: GridView.builder(
                 padding: const EdgeInsets.symmetric(horizontal: 16),
