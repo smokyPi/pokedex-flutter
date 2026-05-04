@@ -38,7 +38,7 @@ class DetailPage extends StatelessWidget {
       body: Column(
         children: [
 
-          // HEADER
+          
           Container(
             width: double.infinity,
             padding: const EdgeInsets.only(
@@ -53,7 +53,7 @@ class DetailPage extends StatelessWidget {
             child: Column(
               children: [
 
-                // BACK BUTTON
+                
                 Align(
                   alignment: Alignment.topLeft,
                   child: IconButton(
@@ -65,7 +65,7 @@ class DetailPage extends StatelessWidget {
                   ),
                 ),
 
-                // IMAGE BESAR
+                
                 Hero(
                   tag: pokemon.name,
                   child: Image.asset(
@@ -77,7 +77,7 @@ class DetailPage extends StatelessWidget {
 
                 const SizedBox(height: 10),
 
-                // NAME
+              
                 Text(
                   pokemon.name,
                   style: const TextStyle(
@@ -96,7 +96,7 @@ class DetailPage extends StatelessWidget {
             ),
           ),
 
-          // CONTENT
+          
           Expanded(
             child: SingleChildScrollView(
               padding: const EdgeInsets.all(16),
@@ -105,7 +105,7 @@ class DetailPage extends StatelessWidget {
                     CrossAxisAlignment.start,
                 children: [
 
-                  // ROLE & WEAKNESS
+                  
                   Row(
                     children: [
                       Expanded(
@@ -139,7 +139,7 @@ class DetailPage extends StatelessWidget {
 
                   const SizedBox(height: 20),
 
-                  // DESCRIPTION
+                  
                   const Text(
                     "Description",
                     style:
@@ -153,7 +153,7 @@ class DetailPage extends StatelessWidget {
 
                   const SizedBox(height: 25),
 
-                  // STATS
+                 
                   const Text(
                     "Stats",
                     style:
