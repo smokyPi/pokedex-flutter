@@ -1,7 +1,7 @@
 class Pokemon {
   final String name;
   final String type;
-  final String ability; // 👈 TAMBAH
+  final String ability; 
   final String description;
   final String role;
   final String weakness;
@@ -17,7 +17,7 @@ class Pokemon {
   Pokemon({
     required this.name,
     required this.type,
-    required this.ability, // 👈 WAJIB
+    required this.ability, 
     required this.description,
     required this.role,
     required this.weakness,
